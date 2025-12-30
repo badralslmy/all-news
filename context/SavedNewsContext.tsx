@@ -1,3 +1,4 @@
+// Edit Version: 1.0.3
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { NewsItem } from '../types';
 

@@ -1,4 +1,7 @@
+// Edit Version: 1.0.4
 import { FeedSource, DeveloperProfile, NewsItem } from './types';
+
+export const APP_VERSION = '1.0.4';
 
 export const INITIAL_FEEDS: FeedSource[] = [
   {
@@ -247,13 +250,12 @@ export const FEED_LIBRARY: (FeedSource & { domain: string })[] = [
 ];
 
 export const DEVELOPER_INFO: DeveloperProfile = {
-  name: 'بدر جبر السلمي',
+  name: 'بدر السلمي',
   role: 'مالك ومطور الموقع',
   bio: 'مطور واجهات أمامية وخبير في تقنيات الويب الحديثة. أهدف إلى توفير منصة إخبارية موثوقة تجمع المصادر الرسمية في المملكة العربية السعودية في مكان واحد.',
   email: 'contact@badralsulami.com',
   socials: {
-    twitter: 'https://twitter.com/badr',
-    github: 'https://github.com/badr'
+    github: 'https://github.com/badralslmy'
   }
 };
 

@@ -1,3 +1,4 @@
+// Edit Version: 1.0.3
 export interface NewsItem {
   title: string;
   link: string;

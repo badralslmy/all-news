@@ -1,3 +1,4 @@
+// Edit Version: 1.0.3
 import React, { useRef } from 'react';
 import { NewsItem, FeedSource } from '../types';
 import { NewsCard } from './NewsCard';

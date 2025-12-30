@@ -87,9 +87,10 @@ src/
 
 ## 👨‍💻 المطور
 
-**بدر  السلمي**
+**بدر جبر السلمي**
 *   مطور واجهات أمامية مهتم بتقنيات الويب الحديثة.
-*   [GitHub](https://github.com/badralslmy)
+*   [Twitter](https://twitter.com/badr)
+*   [GitHub](https://github.com/badr)
 
 ---
 *تم التطوير بحب ❤️ لخدمة المحتوى العربي المفتوح.*

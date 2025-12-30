@@ -1,3 +1,4 @@
+// Edit Version: 1.0.3
 import { FeedSource, NewsItem } from '../types';
 import { MOCK_NEWS } from '../constants';
 

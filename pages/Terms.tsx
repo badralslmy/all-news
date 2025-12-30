@@ -1,3 +1,4 @@
+// Edit Version: 1.0.3
 import React from 'react';
 import { ShieldCheck, Scale, FileText } from 'lucide-react';
 

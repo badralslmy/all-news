@@ -1,6 +1,7 @@
+// Edit Version: 1.0.4
 import React from 'react';
 import { DEVELOPER_INFO } from '../constants';
-import { Code, Github, Twitter, Mail } from 'lucide-react';
+import { Code, Github } from 'lucide-react';
 
 export const DeveloperInfo: React.FC = () => {
   return (
@@ -11,15 +12,12 @@ export const DeveloperInfo: React.FC = () => {
         <div className="px-8 pb-10">
           <div className="relative flex justify-between items-end -mt-12 mb-8">
             <div className="bg-white p-2 rounded-2xl shadow-md">
-                <div className="w-24 h-24 bg-slate-100 rounded-xl flex items-center justify-center text-teal-600 text-3xl font-black border-4 border-teal-50">
-                    {DEVELOPER_INFO.name.charAt(0)}
+                <div className="w-24 h-24 bg-slate-100 rounded-xl flex items-center justify-center border-4 border-teal-50 overflow-hidden">
+                    <img width="67" height="67" src="https://img.icons8.com/external-others-inmotus-design/67/external-B-hornbook-letters-others-inmotus-design.png" alt="Bader Logo"/>
                 </div>
             </div>
             <div className="flex gap-3 mb-2">
-                <a href={DEVELOPER_INFO.socials.twitter} className="p-3 bg-slate-100 rounded-full text-slate-600 hover:bg-teal-50 hover:text-teal-600 transition-colors">
-                    <Twitter size={20} />
-                </a>
-                <a href={DEVELOPER_INFO.socials.github} className="p-3 bg-slate-100 rounded-full text-slate-600 hover:bg-teal-50 hover:text-teal-600 transition-colors">
+                <a href={DEVELOPER_INFO.socials.github} target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-100 rounded-full text-slate-600 hover:bg-teal-50 hover:text-teal-600 transition-colors">
                     <Github size={20} />
                 </a>
             </div>
@@ -32,7 +30,7 @@ export const DeveloperInfo: React.FC = () => {
             <p className="text-lg">{DEVELOPER_INFO.bio}</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 gap-6">
              <div className="p-6 bg-slate-50 rounded-2xl border border-slate-100 hover:border-teal-200 transition-colors group">
                 <div className="flex items-center gap-3 mb-4 text-slate-800 font-bold group-hover:text-teal-600 transition-colors">
                     <Code className="text-teal-500" />
@@ -45,17 +43,6 @@ export const DeveloperInfo: React.FC = () => {
                         </span>
                     ))}
                 </div>
-             </div>
-
-             <div className="p-6 bg-slate-50 rounded-2xl border border-slate-100 hover:border-teal-200 transition-colors group">
-                <div className="flex items-center gap-3 mb-4 text-slate-800 font-bold group-hover:text-teal-600 transition-colors">
-                    <Mail className="text-teal-500" />
-                    <h3>تواصل معي</h3>
-                </div>
-                <p className="text-sm text-slate-600 mb-2">للاستفسارات والعمل الحر:</p>
-                <a href={`mailto:${DEVELOPER_INFO.email}`} className="text-teal-600 font-bold hover:underline">
-                    {DEVELOPER_INFO.email}
-                </a>
              </div>
           </div>
           

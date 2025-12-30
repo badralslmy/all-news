@@ -1,3 +1,4 @@
+// Edit Version: 1.0.3
 import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate, Link } from 'react-router-dom';
 import { NewsItem } from '../types';

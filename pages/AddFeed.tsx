@@ -1,3 +1,4 @@
+// Edit Version: 1.0.3
 import React, { useState } from 'react';
 import { Plus, Check, Search, Globe, X, Link as LinkIcon, AlertCircle } from 'lucide-react';
 import { useFeeds } from '../context/FeedContext';

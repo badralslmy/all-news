@@ -1,5 +1,6 @@
+// Edit Version: 1.0.3
 import React from 'react';
-import { DEVELOPER_INFO } from '../constants';
+import { DEVELOPER_INFO, APP_VERSION } from '../constants';
 
 export const Footer: React.FC = () => {
   return (
@@ -9,7 +10,9 @@ export const Footer: React.FC = () => {
           <div className="text-center md:text-right">
             <h2 className="text-2xl font-black tracking-tight mb-2">All-news</h2>
             <p className="text-slate-400 text-sm">منصتك الأولى لمتابعة الأخبار من جميع المصادر في مكان واحد.</p>
-            <p className="text-slate-500 text-xs mt-4">جميع الحقوق محفوظة © {new Date().getFullYear()}</p>
+            <p className="text-slate-500 text-xs mt-4">
+              جميع الحقوق محفوظة © {new Date().getFullYear()} - الإصدار {APP_VERSION}
+            </p>
           </div>
           <div className="text-center md:text-left">
             <p className="text-sm text-slate-400 mb-2">

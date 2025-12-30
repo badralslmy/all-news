@@ -1,3 +1,4 @@
+// Edit Version: 1.0.3
 import React from 'react';
 import { NewsItem } from '../types';
 import { Link } from 'react-router-dom';

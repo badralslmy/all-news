@@ -1,3 +1,4 @@
+// Edit Version: 1.0.3
 import React, { useEffect, useState } from 'react';
 import { fetchFeedItems } from '../services/rssService';
 import { FeedSource, NewsItem } from '../types';
