@@ -1,7 +1,7 @@
-// Edit Version: 1.0.4
+// Edit Version: 1.0.5
 import { FeedSource, DeveloperProfile, NewsItem } from './types';
 
-export const APP_VERSION = '1.0.4';
+export const APP_VERSION = '1.0.5';
 
 export const INITIAL_FEEDS: FeedSource[] = [
   {
