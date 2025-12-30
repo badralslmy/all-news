@@ -1,0 +1,5 @@
+{
+  "name": "All-news",
+  "description": "Comprehensive news aggregator from multiple RSS sources.",
+  "requestFramePermissions": []
+}
