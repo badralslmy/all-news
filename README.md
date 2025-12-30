@@ -1,6 +1,6 @@
 # 📰 All-News | منصة الأخبار الشاملة (RSS Aggregator)
 
-![React](https://img.shields.io/badge/React-19-61DAFB?style=flat&logo=react)
+![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=flat&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.0-38B2AC?style=flat&logo=tailwind-css)
 ![Vite](https://img.shields.io/badge/Vite-Fast-646CFF?style=flat&logo=vite)
@@ -23,7 +23,7 @@
 
 ## 🛠️ التقنيات المستخدمة
 
-*   **[React 19](https://react.dev/):** مكتبة الواجهة الأمامية لبناء المكونات.
+*   **[React 18](https://react.dev/):** مكتبة الواجهة الأمامية لبناء المكونات.
 *   **[TypeScript](https://www.typescriptlang.org/):** لضمان كتابة كود آمن وقابل للصيانة (Type Safety).
 *   **[Tailwind CSS](https://tailwindcss.com/):** لتنسيق الواجهات بأسلوب Utility-First.
 *   **[Vite](https://vitejs.dev/):** أداة البناء والتطوير السريعة.
@@ -41,8 +41,8 @@
 
 1.  **استنساخ المستودع (Clone):**
     ```bash
-    git clone https://github.com/your-username/all-news-app.git
-    cd all-news-app
+    git clone https://github.com/badralslmy/all-news.git
+    cd all-news
     ```
 
 2.  **تثبيت الحزم (Install Dependencies):**
@@ -87,10 +87,9 @@ src/
 
 ## 👨‍💻 المطور
 
-**بدر جبر السلمي**
+**بدر السلمي**
 *   مطور واجهات أمامية مهتم بتقنيات الويب الحديثة.
-*   [Twitter](https://twitter.com/badr)
-*   [GitHub](https://github.com/badr)
+*   [GitHub](https://github.com/badralslmy)
 
 ---
 *تم التطوير بحب ❤️ لخدمة المحتوى العربي المفتوح.*
